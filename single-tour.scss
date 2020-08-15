@@ -21,7 +21,7 @@
 
 	.splash-container{
 		position: relative;
-		height: calc(100vh - #{$nav-height});
+		height: calc(100vh - #{$nav-height-tall});
 		overflow: hidden;
 		display: flex;
 		justify-content: center;

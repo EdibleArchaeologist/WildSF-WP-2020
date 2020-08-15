@@ -18,11 +18,18 @@ $font-red: rgb(191,82,70);
 /*
 ** Font Variables
 */
-$primary-font-family: "Roboto Slab", serif;
+$primary-font-family: "Roboto", sans-serif;
 $secondary-font-family: "Roboto", sans-serif;
+
+/*
+** Font Colors
+*/
+$body-bg: #ffffff;
+$body-color: #1D2D33;
 
 /*
 ** Sizing and Layout Variables
 */
-$nav-height: 80px;
-$nav-color: transparentize($primary-blue,0.2);
+$nav-height-tall: 112px;
+$nav-height-narrow: 64px;
+$nav-color: white;
