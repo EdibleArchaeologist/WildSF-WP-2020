@@ -74,17 +74,11 @@ $logo_image_url = wp_get_attachment_image_url(
 				<!-- <li data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-item nav-gift-card">
 					<a href="https://www.peek.com/s/15a8284c-0990-4986-a5b4-1754b0c0b014/K9Wd" class="nav-link" data-button-text="Gift Card">Gift Card</a>
 				</li> -->
-				<li data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-item">
-					<a class="nav-link" href="/about-us">About Us</a>
-				</li>
 			</ul>
 			<!-- Right-aligned links -->
 				<ul class="navbar-nav topnav-right col-5">
-					<li class="nav-item">
-			    	<a class="nav-link" href="mailto:info@wildsftours.com" class="email-address">info@wildsftours.com</a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="tel:+14153906635" class="phone-number">(415)390-6635‬</a>
+					<li data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-item">
+						<a class="nav-link" href="/about-us">About Us</a>
 					</li>
 					<li><a href="<?= $book_nav_link ?>" class="btn book-button" data-button-text="Book Now">Book Now</a></li>
 				</ul>
